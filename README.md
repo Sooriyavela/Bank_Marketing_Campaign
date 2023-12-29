@@ -1,5 +1,7 @@
 TOPIC: Bank Marketing Campaign
+
 PROBLEM STATEMENT:
+
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. 
 Often, more than one contact with the same client was required, to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 The classification goal is to predict if the client will subscribe to a term deposit or not. (variable y)
@@ -7,7 +9,9 @@ Marketing campaigns are characterized by focusing on the customer needs and thei
 The dataset consists of 45211 rows and 17 columns.
 The goal of our project is to build a model to predict whether the client is interested in subscribing for the term deposit or not.
 Our model will help to predict the future as well.
+
 DESCRIPTIVE DATA ANALYSIS:
+
 Descriptive analysis is a method used in statistics and data analysis to summarize and describe the key features of a dataset. The goal is to provide a clear and concise overview of the data, helping to identify patterns, trends, and key characteristics. Descriptive analysis does not involve making inferences or drawing conclusions about a population; instead, it focuses on organizing and summarizing the available information
 Our original dataset looks like this.  
  
@@ -59,6 +63,7 @@ Columns ‘day’ and ‘month’ are removed as both are unsuccessful.
 DATA PREPROCESSING AND EXPLORATORY DATA ANALYSIS: 
 
 Univariate analysis:
+
 It is used to convert numerical variables into categorical variables with the help of binning technique through histograms.
 The frequency balance for people with negative balance is more when compared with the people with positive balance. 
 After completing the univariate analysis, we dropped those columns.
