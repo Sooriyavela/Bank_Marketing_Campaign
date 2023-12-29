@@ -105,6 +105,7 @@ We could observe the below data:
 Accuracy was good for unbalanced data but the precision and the recall for the minority class was extremely less. We were more concerned about the precision value as we didn’t want to wrongly predict the possibility of a customer accepting a term deposit offer.
 
 Then, we observed better precision values for the under sampled data. But oversampled data had the highest accuracy and good precision and recall values. This is because, most of the useful information was lost in under sampling.
+<img width="360" alt="image" src="https://github.com/Sooriyavela/Bank_Marketing_Campaign/assets/144498455/f511dbc6-ae29-4b65-b582-fe18a13d8e35">
 
 ROC curve for Imbalanced data:
 
@@ -133,8 +134,3 @@ Conclusion:
 
 We were able to observe that Both Random Forest and the Decision Tree Model performed better than the other 2 models and had the highest accuracy of 83% amongst other Models. Also, we could observe that Duration was the most influential feature for Prediction in all the 4 models followed by poutcome.
 So, more the duration of the call, success or others in the poutcome, more the possibility of getting a term deposit offer from the customer.
-
-
-
-
-![image](https://github.com/Sooriyavela/Bank_Marketing_Campaign/assets/144498455/8c7a688d-4a66-4e87-a7a6-6c2348ad87d1)
